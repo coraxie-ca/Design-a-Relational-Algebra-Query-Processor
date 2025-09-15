@@ -1,5 +1,4 @@
 from operators import *
-import pandas as pd
 from tabulate import tabulate
 import sys, json
 
