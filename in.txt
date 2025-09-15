@@ -1,0 +1,29 @@
+Student = {
+ID, Name, Age, Major
+1, Alice, 20, CS
+2, Bob, 22, Physics
+3, Charlie, 21, Mathematics
+}
+
+StudentA = {
+ID, Name, Age, Major
+1, Alice, 20, CS
+2, Bob, 22, Physics
+4, Cora, 29, PP
+}
+
+Courses = {
+CourseID, CourseName, Professor
+C101, Databases, Dr.Smith
+C102, Physics, Dr.Doe
+C103, Calculus, Dr.White
+}
+
+Enrollment = {
+StudentID, CourseID
+1, C101
+2, C102
+3, C103
+}
+
+query: project Name,Age ((select Age<=21 Student) join Student.ID=Enrollment.StudentID Enrollment)
