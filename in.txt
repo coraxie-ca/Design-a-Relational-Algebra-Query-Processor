@@ -26,4 +26,4 @@ StudentID, CourseID
 3, C103
 }
 
-query: project Name,Age ((select Age<=21 Student) join Student.ID=Enrollment.StudentID Enrollment)
+query: project Name,Age (StudentA intersect Student)
