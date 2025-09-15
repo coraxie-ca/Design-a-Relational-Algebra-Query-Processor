@@ -1,6 +1,6 @@
 # Design-a-Relational-Algebra-Query-Processor
-A system similar to RelaX that can accept text representing relations and relational algebra queries, then execute and display the results.
-RelaX: https://dbis-uibk.github.io/relax/calc/local/uibk/local/0
+- A system similar to RelaX that can accept text representing relations and relational algebra queries, then execute and display the results.
+- RelaX: https://dbis-uibk.github.io/relax/calc/local/uibk/local/0
 
 # operator format
 - select：select [condition] (table)
